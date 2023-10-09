@@ -16,10 +16,11 @@ The proposed system has the potential to provide a number of benefits, including
 The proposed system will use sentiment analysis to identify and rank tweets based on their level of kindness. This will be done by the following steps:
 
 1. Read the `nice_words.txt` file into a list. This file will contain a list of words that are typically associated with kindness, such as "love," "compassion," and "gratitude."
-1. Read the `tweets.txt` file into a tweets list. This file will contain a collection of tweets to be ranked.
-1. Look at each of the tweets and count the number of nice words.
-1. Sort the tweets in descending order based on the number of nice words, with the most kind tweet first.
-1. Display the tweets, along with the count of nice words in each tweet.
+2. Read the tweets list. 
+3. Look at each of the tweets and count the number of nice words.
+4. Sort the tweets in descending order based on the number of nice words, with the most kind tweet first.
+5. Display the tweets, along with the count of nice words in each tweet.
+6. Use Sentiment Analysis
 
 *****
 **Tools** :
